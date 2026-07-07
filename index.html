@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- Header -->
+    <header>
+        <h1>Event Management System</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="add-event.html">Add Event</a> |
+            <a href="attendees.html">Attendees</a> |
+            <a href="register-event.html">Register Event</a> |
+            <a href="login.html">Login</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <!-- Search Section -->
+    <section>
+
+        <h2>Event List</h2>
+
+        <input type="text" placeholder="Search event by name">
+        <button>Search</button>
+
+        <br><br>
+
+        <a href="add-event.html">
+            <button>Add New Event</button>
+        </a>
+
+    </section>
+
+    <br>
+
+    <!-- Event Table -->
+
+    <table border="1" cellpadding="10" cellspacing="0">
+
+        <thead>
+
+            <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Attendees</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Tech Conference 2026</td>
+                <td>15 July 2026</td>
+                <td>Kathmandu</td>
+                <td>120</td>
+
+                <td>
+
+                    <a href="view-event.html">View</a> |
+                    <a href="add-event.html">Edit</a>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Music Festival</td>
+                <td>20 July 2026</td>
+                <td>Pokhara</td>
+                <td>85</td>
+
+                <td>
+
+                    <a href="view-event.html">View</a> |
+                    <a href="add-event.html">Edit</a>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Business Seminar</td>
+                <td>25 July 2026</td>
+                <td>Chitwan</td>
+                <td>65</td>
+
+                <td>
+
+                    <a href="view-event.html">View</a> |
+                    <a href="add-event.html">Edit</a>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>AI Workshop</td>
+                <td>30 July 2026</td>
+                <td>Lalitpur</td>
+                <td>40</td>
+
+                <td>
+
+                    <a href="view-event.html">View</a> |
+                    <a href="add-event.html">Edit</a>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <br>
+
+    <!-- Quick Links -->
+
+    <section>
+
+        <h3>Quick Links</h3>
+
+        <ul>
+
+            <li><a href="add-event.html">Add New Event</a></li>
+
+            <li><a href="attendees.html">View All Attendees</a></li>
+
+            <li><a href="add-attendee.html">Add Attendee</a></li>
+
+            <li><a href="register-event.html">Register Attendee to Event</a></li>
+
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 Event Management System</p>
+
+    </footer>
+
 </body>
+
 </html>
